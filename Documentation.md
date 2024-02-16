@@ -16,7 +16,13 @@ VITE v5.1.2 ready in 262 ms
 5- Maybe it needs to wait few seconds for the first time runnig.
 6- You can run tests with "npm test"
 
+# Login
+
+-username: admin
+-password: admin
+
 # Structure and design of the project
+
 For this project I've used Redux-Toolkit design pattern with AsyncThunk. In the src folder you can see couple of folders that I'm going to explaing to you:
 
 - assets: contains all assets like images.
@@ -42,11 +48,18 @@ For this project I've used Redux-Toolkit design pattern with AsyncThunk. In the 
 - utils -> types: contains all types that I've used in the project.
 
 # Styling Libraries
+
 - JoyUI from Material UI and it's components
 - SCSS modules
 
 # Tests
-I've written some tests for Login.tsx page that you can find them in: src -> pages -> login -> __test__ -> Login.test.tsx
 
+I've written some tests for Login.tsx page that you can find them in: src -> pages -> login -> **test** -> Login.test.tsx
 
-// I've tried to implement an architecture that let the project to be maintainable and extensible and also every thing be reusable.
+# Mock data
+
+Because I've not had any backend resources for this projec I've create some mock data json files to simulate API requests, and in the Invoice and History pages, I've add months and years selectors but because of backend limitation They don't filter any thing, but you can see filtering process in the home page by assigning the tasks and also working with categories' buttons.
+
+# Finall point
+
+I've tried to implement an architecture that let the project to be maintainable and extensible and also every thing be reusable.
