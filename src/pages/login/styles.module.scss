@@ -1,0 +1,22 @@
+.mainContainer {
+  height: 100%;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .formContainer {
+    .formHeader {
+      display: flex;
+      align-items: center;
+      column-gap: 100px;
+      img {
+        height: 25px;
+      }
+    }
+
+    form {
+      margin-top: 16px;
+    }
+  }
+}
